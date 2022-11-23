@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Source+Sans+Pro&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Island Moments', cursive; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #373737;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #4d4d4d;
+  }
+.main{
+    /* border: 2px solid green; */
+    background: linear-gradient(rgb(58, 43, 43),rgb(79, 80, 52));
+    color: white;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+}
+.left{
+    /* border: 2px solid yellow; */
+    background-color: black;
+    color: white;
+    width: 18%;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    padding: 20px;
+    padding-left: 35px;
+}
+.logo{
+    margin-top: 0px;
+}
+.left-bottom{
+    /* border: 2px dotted darkorange; */
+    margin-top: 250px;
+    font-size: 14px;
+}
+.left-bottom p{
+    margin: 5px;
+}
+.right{
+    /* border: 2px solid rgb(4, 173, 4); */
+    width: 82%;
+    height: 200vh;
+}
+.playlist-link{
+    text-decoration: none;
+    color: lightgreen;
+}
+.search-link{
+    text-decoration: none;
+    color: blueviolet;
+}
+nav{
+    /* border: 2px solid orange; */
+    background-color: rgb(24, 23, 23);
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav-left{
+    /* border: 2px solid saddlebrown; */
+    width: 440px;
+    height: 50px;
+    display: flex;
+
+}
+.nav-left img{
+    border: 5px solid rgb(34, 33, 33);
+    background-color: rgb(34, 33, 33);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: auto auto;
+    /* filter: invert(); */
+}
+input{
+    width: 330px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    /* margin-left: 20px; */
+    margin: auto;
+    font-size: large;
+}
+input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 2px black, 0 0 7px rgb(236, 234, 234), 0 0 2px rgb(160, 157, 156);
+}
+.nav-right{
+    /* border: 2px solid saddlebrown; */
+}
+.nav-right button{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: large;
+}
+.signup{
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+}
+.playlist-div{
+    /* border: 2px solid chocolate; */
+    height: max-content;
+    margin-top: 50px;
+}
+h2{
+    margin: 0px 25px 30px 25px;
+}
+.playlist{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 50%;
+    width: 98%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.songs-div{
+    /* border: 2px solid greenyellow; */
+    background-color: rgba(245, 245, 245, 0.041);
+    border-radius: 7px;
+    width: 190px;
+    height: 265px;
+    color: white;
+    padding: 15px;
+    position: relative;
+    
+}
+.songs-div:hover{
+    background-color: rgba(245, 245, 245, 0.123);
+    cursor: pointer;
+}
+.song-img{
+    /* border: 2px dotted darkcyan; */
+    width: 160px;
+    height: 160px;
+}
+.play-button{
+    /* border: 2px solid purple; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    display: none;
+}
+.songs-div:hover .play-button{
+    display: block;
+} 
+.songs-div h4{
+    margin: 5px 0 5px 0;
+    /* font-family: 'Island Moments', cursive; */
+    /* font-weight: normal; */
+    font-size: 17x;
+}
+.songs-div p{
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgba(245, 245, 245, 0.89);
+}

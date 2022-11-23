@@ -1,0 +1,124 @@
+.playlist-main{
+    background: linear-gradient(to right,rgb(156, 40, 5),rgb(48, 46, 46));
+    /* height: 100vh; */
+}
+.home-link{
+    text-decoration: none;
+    color: lightgreen;
+}
+.album{
+    /* border: 2px solid red; */
+    margin-top: 0px;
+    width: 100%;
+    height: 48vh;
+    background-color: rgba(245, 245, 245, 0.164);
+    display: flex;
+}
+.album-image-div{
+    /* border: 2px solid black; */
+    width: 40vh ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album-image{
+    width: 35vh;
+    height: 35vh;
+}
+.album-text-div{
+    /* border: 2px solid purple; */
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.album-text-div p{
+    margin-top: 5px;
+}
+.album-p2{
+    font-size: 5em;
+}
+.album-p3{
+    font-size: large;
+    margin-bottom: 7px;
+    color: rgba(255, 255, 255, 0.541);
+}
+.centre-play-div{
+    /* border: 2px solid black; */
+    width: 16vw;
+    margin: 20px 15px 25px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.centre-play-div-img{
+    width: 60px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.centre-play-div-svg{
+    width: 30px;
+    height: 30px;
+}
+.grid-container{
+    /* border: 2px solid yellow; */
+    display: grid;
+    /* margin-left: 50px; */
+    /* grid-template-rows: 70px ; */
+    /* grid-template-columns: 900px; */
+    /* width: 100%; */
+}
+.grid-items{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* border: 2px solid rgb(255, 47, 75); */
+    background-color: rgba(14, 13, 13, 0.452);
+}
+.grid-items ul{
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+}
+#ul1{
+    border: 1px solid rgba(245, 245, 245, 0.24);
+    border-style: none none solid none;
+}
+.clock-svg{
+    /* margin-left: 40px; */
+}
+.grid-ul-li{
+    /* border: 1px solid blue; */
+    /* height: 100%; */
+}
+.li1{
+    width: 50px;
+    padding-left: 20px;
+}
+.li2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.li2 img{
+    width: 45px;
+    height: 45px;
+}
+.li3{
+    width: 250px;
+}
+.li4{
+    width: 250px;
+}
+.li5{
+    width: 250px;
+    /* width: max-content; */
+    /* border: 2px solid green; */
+}
